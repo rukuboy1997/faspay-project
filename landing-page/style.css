@@ -1,0 +1,427 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+}
+
+#header {
+    display: block;
+    background-color:lavender;
+    width: 100%;
+    border-bottom: 1px solid #468fff;
+}
+
+#logo {
+    display: inline;
+    overflow-y: hidden;
+    padding: 0 20px 20px 0;
+    border: none;
+}
+
+#menu {
+    float: right;
+}
+
+#hamburger{
+    display: block;
+    background-color: #2700FE;
+    margin-top: 40px;
+    margin-right: 55px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+span {
+    display: block;
+    margin-bottom: 5px;
+    width: 33px;
+    height: 4px;
+    position: relative;
+    background: #cdcdcd;
+    border-radius: 3px;
+}
+
+span:last-child {
+    margin-bottom: 0px;
+}
+
+#nav-bar{
+    display: none;
+    position: relative;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: #468fff;
+    display: block;
+}
+
+#nav-bar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar > ul > li > a {
+    padding: 10px;
+    background: lightgray;
+}
+
+#nav-bar > ul > li > a:hover {
+    background-color: lightgreen;
+    color: lightyellow;
+}
+
+#nav-bar li {
+    border-bottom: 1px solid #333;
+}
+
+#nav-bar li:last-child {
+    border: none;
+}
+
+#welcome {
+    text-align: center; 
+    background-image:linear-gradient(to right, rgb(70, 144, 255), rgb(141, 69, 176));
+    padding: 50px;
+    margin: 0;
+    color: white;
+}
+
+#mivision {
+    color: #12065E;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px 50px 20px;
+    gap: 50px;
+}
+
+#mivision h1 {
+    text-align: center;
+}
+
+#slider {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+#slider img {
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display:none;
+    border-radius: 10px;
+}
+
+#main {
+    background-color:lavender;
+    color: #12065E;
+    margin: 0px;
+    padding: 10px;
+}
+
+.section {
+    width: 600px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 1px grey;
+}
+
+.style {
+    width: 300px;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px grey;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+
+input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+}
+
+#footer {
+    display: block;
+    width: 100%;
+}
+
+#foosect {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 30px;
+    gap: 20px;
+    background-color: aliceblue;
+    color:#12065E;
+}
+
+.sect1 {
+    background-color: cyan;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sect1 > ul {
+    list-style-type: square;
+}
+
+.sect1 > ul > li > a {
+    color:tomato;
+    padding: 5px;
+}
+
+.sect2 {
+    background-color: darkorange;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sect2 > ul {
+    list-style-type: circle;
+}
+
+.sect2 > ul > li > a {
+    color:greenyellow;
+    padding: 5px;
+}
+
+.sect3 {
+    background-color: darkviolet;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sect3 > ul {
+    list-style-type: square;
+}
+
+.sect3 > ul > li > a {
+    color:cyan;
+    padding: 5px;
+}
+
+.sect4 {
+    background-color: fuchsia;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sect4 a {
+    text-decoration: none;
+}
+
+#copyright {
+    text-align: center;
+    color:antiquewhite;
+    background-color:black;
+    padding: 10px;
+}
+
+#copyright a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+#copyright a:hover {
+    background-color: lightgreen;
+    color: lightyellow;
+}
+
+#content-body {
+    background-color:lavender;
+    color: #12065E;
+    margin: 0px;
+    padding: 10px;
+}
+
+.content {
+    width: 900px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 1px grey;
+    font-size: 17px;
+}
+
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    #foosect {
+        grid-template-columns: auto auto;
+    }
+    
+    .content {
+        width: 600px;
+        border-radius: 15px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    #container {
+        width: 100%;
+    }
+    
+    #header {
+        display: block;
+        background-color:lavender;
+        width: 100%;
+        border-bottom: 1px solid #468fff;
+    }
+
+    #logo {
+        display: inline;
+        overflow-y: hidden;
+        padding: 0 20px 20px 0;
+        border: none;
+    }
+    #logo img {
+        height: 50px;
+        width: 150px;
+    }
+    
+    #menu {
+        float: right;
+    }
+    
+    #hamburger{
+        display: block;
+        background-color: #2700FE;
+        margin-top: 13px;
+        margin-right: 30px;
+        padding: 4px;
+        border-radius: 2px;
+    }
+    
+    span {
+        display: block;
+        margin-bottom: 5px;
+        width: 23px;
+        height: 3px;
+        position: relative;
+        background: #cdcdcd;
+        border-radius: 2px;
+    }
+    
+    span:last-child {
+        margin-bottom: 0px;
+    }
+
+    #nav-bar{
+        display: none;
+        position: relative;
+    }
+    
+    #nav-bar a{
+        text-decoration: none;
+        color: #468fff;
+        display: block;
+    }
+    
+    #nav-bar > ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #nav-bar > ul > li > a {
+        padding: 10px;
+        background: lightgray;
+    }
+    
+    #nav-bar > ul > li > a:hover {
+        background-color: lightgreen;
+        color: lightyellow;
+    }
+    
+    #nav-bar li {
+        border-bottom: 1px solid #333;
+    }
+    
+    #nav-bar li:last-child {
+        border: none;
+    }
+
+    #welcome {
+        padding: 50px 20px;
+    }
+
+    #mivision {
+        text-align: center;
+        display: block;
+    }
+    #mivision.love {
+        padding: 20px 50px 20px;
+
+    }
+
+    .love p {
+        text-align: center;
+    }
+
+    #slider img {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    #main {
+        padding: 10px;
+    }
+    
+    .section {
+        width: 300px;
+    }
+    
+    .style {
+        width: 200px;
+    }
+
+    #foosect {
+        grid-template-columns: auto;
+    }
+
+    .content {
+        width: 300px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+}
+
