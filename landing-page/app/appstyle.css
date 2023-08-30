@@ -1,0 +1,124 @@
+body {
+    background-color:white;
+    padding: 0%;
+    margin: 0%;
+}
+
+#header {
+    display: block;
+    background-color:lavender;
+    width: 100%;
+    border-bottom: 1px solid #468fff;
+}
+
+#logo {
+    display: inline;
+    overflow-y: hidden;
+    padding: 0 20px 20px 0;
+    border: none;
+}
+
+#menu {
+    float: right;
+}
+
+#hamburger{
+    display: block;
+    background-color: #2700FE;
+    margin-top: 40px;
+    margin-right: 55px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+span {
+    display: block;
+    margin-bottom: 5px;
+    width: 33px;
+    height: 4px;
+    position: relative;
+    background: #cdcdcd;
+    border-radius: 3px;
+}
+
+span:last-child {
+    margin-bottom: 0px;
+}
+
+#nav-bar{
+    display: none;
+    position: relative;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: #468fff;
+    display: block;
+}
+
+#nav-bar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar > ul > li > a {
+    padding: 10px;
+    background: lightgray;
+}
+
+#nav-bar > ul > li > a:hover {
+    background-color: lightgreen;
+    color: lightyellow;
+}
+
+#nav-bar li {
+    border-bottom: 1px solid #333;
+}
+
+#nav-bar li:last-child {
+    border: none;
+}
+
+#welcome {
+    text-align: center; 
+    background-image:linear-gradient(to right, rgb(70, 144, 255), rgb(141, 69, 176));
+    padding: 50px;
+    margin: 15px 150px;
+    color: white;
+    border-radius: 15px;
+}
+
+.bighead {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2700FE;
+}
+
+.formStyle {
+    color: #2700FE;
+    background-color:whitesmoke;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom:auto;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px grey;
+}
+
+input {
+    
+    border-style: solid;
+    border-color: #2700FE;
+    border-width: 5px;
+    border-radius: 7px;
+    
+}
+
+#create, #login {
+    background-color: #2700FE;
+    color: white;
+    font-weight: bolder;
+}
