@@ -3,6 +3,15 @@
 
 Faspay is a web application that allows users to make quick and secure payments online. With Faspay, users can easily pay for goods and services without the need for cash or physical payment cards.
 
+## FasPay App and Landing Page
+
+| Go to | Links |
+| --- | --- |
+| FasPay Landing Page | Visit this link [https://faspay.42web.io](https://faspay.42web.io) |
+| FasPay App | The link is coming soon. It's under development |
+
+## FasPay Benefits
+
 - *Secure payments*: Faspay uses industry-standard encryption and security measures to protect user data and prevent fraud.
 
 - *Easy to use*: Faspay has a simple and intuitive interface that makes it easy for users to make payments.
