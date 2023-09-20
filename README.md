@@ -16,7 +16,7 @@ Faspay is a web application that allows users to make quick and secure payments 
 
 ## Getting Started
 
-To use Fastpay, simply sign up for an account on the website and add a payment method. Once your account is set up, you can start making payments immediately.
+To use Faspay, simply sign up for an account on the website and add a payment method. Once your account is set up, you can start making payments immediately.
 
 ## Technologies Used
 
