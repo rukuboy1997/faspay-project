@@ -1,3 +1,6 @@
+# FasPay
+> Global money transfer without limitations
+
 Faspay is a web application that allows users to make quick and secure payments online. With Faspay, users can easily pay for goods and services without the need for cash or physical payment cards.
 
 - *Secure payments*: Faspay uses industry-standard encryption and security measures to protect user data and prevent fraud.
@@ -19,9 +22,9 @@ To use Fastpay, simply sign up for an account on the website and add a payment m
 
 Faspay is built using the following technologies:
 
-- *Front-end*: HTML, CSS, JavaScript, ReactJS
-- *Back-end*: Node.js, Express.js, MongoDB
-- *Payment processing*: Stripe API
+- *Front-end*: HTML, CSS, Tailwind CSS, fontawesome, JavaScript, Servlet, JSP Page, JavaServer Faces.
+- *Back-end*: Java EE Server, Enterprise JavaBean(EJB) Container, Java Database Connectivity API (JDBC).
+- *Payment processing*: Java Persistence API, Java Authentication and Authorization Service (JAAS).
 
 ## Contributing
 
