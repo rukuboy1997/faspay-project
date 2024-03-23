@@ -7,8 +7,10 @@ Faspay is a web application that allows users to make quick and secure payments 
 
 | Go to | Links |
 | --- | --- |
+| FasPay Prototype| visit this link [Prototype](https://www.canva.com/design/DAFeG0sOgaM/4nOiLbNlXQ92N8BTEOMuzA/view?utm_content=DAFeG0sOgaM&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu#1) |
 | FasPay Landing Page | Visit this link [https://faspay.42web.io](https://faspay.42web.io) |
 | FasPay App | visit this link [https://rukuboy1997.github.io/faspay-app/](https://rukuboy1997.github.io/faspay-app/) |
+| FasPay Pitch Video| Visit this link [FasPay Pitch](https://youtu.be/5iHSUi4kTO4?si=6HVV4B4kj2MyscIR) |
 
 ## FasPay Benefits
 
