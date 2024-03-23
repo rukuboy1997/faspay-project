@@ -31,9 +31,9 @@ To use Faspay, simply sign up for an account on the website and add a payment me
 
 Faspay is built using the following technologies:
 
-- *Front-end*: HTML, CSS, Tailwind CSS, fontawesome, JavaScript, Servlet, JSP Page, JavaServer Faces.
-- *Back-end*: Java EE Server, Enterprise JavaBean(EJB) Container, Java Database Connectivity API (JDBC).
-- *Payment processing*: Java Persistence API, Java Authentication and Authorization Service (JAAS).
+- *Front-end*: HTML, CSS, JavaScript, React Native.
+- *Back-end*: Nodejs and PHP.
+- *Payment processing*: Coming soon.
 
 ## Contributing
 
